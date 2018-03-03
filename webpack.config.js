@@ -33,7 +33,7 @@ module.exports = {
 			},
 			{
 				use: extractCss.extract({
-					fallback: 'style-loader',
+					// fallback: 'style-loader',
 					use: cssPlainLoader,
 				}),
 				test: /no-module.css/,
